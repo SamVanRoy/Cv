@@ -60,7 +60,7 @@
 \definecolor{skilllabelcolour}{HTML}{b3b3b3}
 }
 % ---------------------------------------------------------------------------
-\DeclareOption{lighthipster}{
+\DeclareOption{lightTheme}{
 % Farben
 \definecolor{headerblue}{HTML}{2EB6E1}%
 \definecolor{cvorange}{HTML}{FFC300}
