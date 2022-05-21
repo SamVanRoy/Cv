@@ -1,6 +1,6 @@
 
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{simplehipstercv}[2019/06/22 A New Simple CV Template]
+\ProvidesClass{cv}[2022/05/21 First version cv template]
 
 \LoadClass[]{article}
 \RequirePackage{xcolor}
@@ -336,4 +336,4 @@
 \DeclareOption*{\PassOptionsToClass{\CurrentOption}{article}}
 \ProcessOptions\relax
 
-\usepackage{simplehipstercv}
+\usepackage{cv}
