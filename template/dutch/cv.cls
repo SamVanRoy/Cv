@@ -21,7 +21,7 @@
 \definecolor{pblue}{HTML}{0395DE}
 \newcommand{\iconsize}{\huge}
 % ---------------------------------------------------------------------------
-\DeclareOption{darkhipster}{
+\DeclareOption{darkTheme}{
 % Farben
 \definecolor{headerblue}{HTML}{2EB6E1}%
 \definecolor{cvorange}{HTML}{FFC300}
