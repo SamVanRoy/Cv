@@ -188,13 +188,17 @@
 
 % -----------------------------------------------------------------------------------
 
-\newcommand{\simpleheader}[5]{
+\newcommand{\simpleheader}[7]{
 \tikz[remember picture,overlay] {%
 \node[rectangle, fill=#1, anchor=north, minimum width=\paperwidth, minimum height=3.5cm](header) at (current page.north){};%
 \node[draw=none, align=left](name) at (header) {%
 {\Huge \color{#5} #2 \textbf{#3} }%
 };%
 \node[draw=none, below](description) at (name.south) {\color{white}#4};% 
+\node[right=2.5cm of header.west, anchor=center]
+    {\includegraphics[height=3cm]{#6}};
+\node[left=2.5cm of header.east, anchor=center]
+    {\includegraphics[height=3cm]{#7}};
 }\vspace{-0.7cm}%
 }
 
